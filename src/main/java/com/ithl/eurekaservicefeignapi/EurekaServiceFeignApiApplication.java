@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EurekaServiceFeignApiApplication {
 
     public static void main(String[] args) {
+        System.out.println("-----------");
         SpringApplication.run(EurekaServiceFeignApiApplication.class, args);
     }
 
